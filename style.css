@@ -1,0 +1,246 @@
+.image_me{
+    
+    margin-top: 20px;
+    margin-right: 45px;
+    padding: 0;
+    left: 0;
+    border-radius: 200px;
+    width: 33%;
+    height: 630px;
+    float: right;
+}
+
+.content-main{
+    float: left;
+    padding: 100px 140px;
+    /* background-color: brown; */
+
+}
+
+.nav{
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    width: 50%;
+    /* padding-left: 400px; */
+    float: left;
+    
+
+    
+}
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav .nav-item .nav-link{
+    color: rgb(47, 34, 34);
+font-size: 20px;
+}
+.nav .nav-item .nav-link:hover{
+color: blueviolet;
+}
+.navigation{
+    margin: 0px 20px;
+}
+
+.content1{
+    height: 80px;
+    
+   
+    
+}
+.content2{
+    height: 700px;
+    background-image: url("../images/bg6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.my-name{
+    margin-top: 50px;
+    border-bottom: solid rgb(0, 0, 0) 4px;
+    font-family: "Bodoni MT";
+}
+
+
+
+.ds-engg{
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: "Book Antiqua";
+}
+
+.resume-btn{
+    margin-left: 230px;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    padding: 0;
+    background-color: snow;
+    border: 1px black solid;
+}
+
+.about-me{
+    background-image: url("../images/aboutbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+    height: 1700px;
+    
+    
+
+}
+
+.aboutp{
+    width: 75%;
+    align-self: center;
+    justify-self: center;
+    margin: 150px;
+}
+
+.about-content{
+    text-align: center;
+    
+    
+    
+}
+
+.ab{
+    width: 55%;
+    height: 600px;
+    margin-left: 320px;
+    padding: 100px 0px;
+   
+}
+
+.ab-heading{
+    font-size: 60px;
+    font-family: "Bodoni MT";
+}
+.ab-para{
+    font-size: 20px;
+    font-family: "Book Antiqua";
+}
+
+.ab-btn{
+   
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.btn-1{
+    border-bottom: 2px solid black;
+    
+}
+.btn-2{
+    border-bottom: 2px solid black;
+    
+}
+
+.btn-1:hover , .btn-2:hover{
+    border: 2px solid black;
+
+}
+
+
+.cards{
+	width: 100%;
+	height: 450px;
+	
+
+
+}
+.card2{
+	width: 25%;
+	
+	height: 480px;
+/*	box-shadow: 2px 2px 2px 2px darkgray;*/
+	
+	float: left;
+
+	margin-left: 80px;
+	transition: 0.6s;
+	border:0;
+	
+	
+}
+.card1{
+	width: 25%;
+	
+	height: 350px;
+/*	box-shadow: 2px 2px 2px 2px darkgray;*/
+	
+	float: left;
+
+	margin-left: 80px;
+	transition: 0.6s;
+	border:0;
+	
+	
+}
+
+
+.card:hover{
+	transform: scale(1.1);
+	z-index:2;
+	
+	border-radius: 10px;
+	box-shadow: 0 0 0 0;
+	justify-self: center;
+	/*box-shadow: 2px 2px 2px 2px lightgray;
+	background: plum;*/
+}
+
+.project-heading{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: "Bodoni MT";
+}
+
+
+.c-form{
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 220px;
+}
+
+.input{
+    margin-top: 20px;
+    width: 60%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.btn-submit{
+    margin-top: 40px;
+}
+
+.input3{
+    height: 200px;
+    margin-top: 20px;
+    width: 60%;
+    
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.col-2{
+    padding: 0;
+    background-image: url("../images/image-c.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.col-1{
+    padding: 0;
+}

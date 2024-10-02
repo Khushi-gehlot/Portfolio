@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="Assesst/css/style.css">
+	<style type="text/css">
+		#edu{
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function Showskills() {
+			document.getElementById("skills").style.display = "block";
+			document.getElementById("edu").style.display = "none";
+		}
+		function Showedu() {
+			document.getElementById("skills").style.display = "none";
+			document.getElementById("edu").style.display = "block";
+		}
+	</script>
+	
+	<title>Portfolio</title>
+</head>
+<body>
+   
+    <!-- nav -->
+	
+	  
+    <div class="content1" style="background-color: #ffffff">
+
+		
+
+		<div class="container navigation ">
+		
+			<ul class="nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About Me</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Skills</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			  </li>
+			  
+			  
+			</ul>
+		  </div>
+		
+    </div>
+	  
+    <div class="content2 ">
+		<img src="Assesst/images/1.jpg" alt="ksf" class="image_me">
+		<div class="content-main" >
+			<h1 class="my-name" style="font-size: 85px; margin-left: 30px;">Khushi Gehlot    </h1>
+			<br>
+			<h3 class="ds-engg">Data Science Engineer</h3>
+			<a href="https://drive.google.com/file/d/1rD4mrHmfFvAiIc2ZzqZZKJcCQJXdSdRc/view?usp=drive_link"><button class="btn  btn-md resume-btn">Resume</button></a>
+		
+		</div>
+		
+    </div>
+	<img src="Assesst/images/hw2.png" class="aboutp">
+	<div class="container-fluid about-me">
+
+		<div class="ab">
+
+			
+		
+			<h2 class="about-content ab-heading">
+				ABOUT ME
+			</h2><br>
+			<p class="about-content ab-para">
+				Hi there! I'm Khushi, a passionate and dedicated frontend developer in learning, constantly exploring the world of web development. With a keen interest in creating visually appealing and user-friendly interfaces, I'm currently honing my skills in HTML, CSS, and JavaScript, and gradually expanding into more advanced frameworks.<br>
+
+My journey began with a curiosity for how websites work, and since then, I've been learning how to turn ideas into interactive and engaging web experiences. While I'm still building my expertise, I'm always eager to take on new challenges, learn from every project, and grow as a developer.
+
+
+			</p>
+			<div class="ab-btn">
+			<button class="btn btn-md btn-1" id="skills-btn" onclick="Showskills()">SKILLS</button>
+			<button class="btn btn-md btn-2" id="edu-btn" style="margin-left: 40px;" onclick = "Showedu()">EDUCATION</button>
+			</div>
+			</div>
+			
+			<div class="skills" id="skill">
+				<div class="container-fluid cards ">
+					
+					
+					<div class="card1 card">
+							
+							<img src="Assesst/images/fed.png" class="card-img" ><br>
+							<h4 style="text-align: center; margin-top: 10px;">Frontend Development</h4>
+							
+							
+				</div>
+				<div class="card1 card ">
+							
+							<img src="Assesst/images/cp.png" class="card-img" style="align-self: center;">
+							<h4 style="text-align: center; margin-top: 10px;">Programming</h4>
+							
+				</div>
+				<div class="card1  card" >
+							
+							<img src="Assesst/images/wd2.png" class="card-img w-100" ">
+							<h4 style="text-align: center; margin-top: 5px;">Web Designing</h4>
+				
+				</div>
+				
+				
+				
+			
+			<div class="edu" id="edu">
+				
+			</div>
+
+			</div>
+	
+		<div class="projects">
+			<h2 class="project-heading">My Projects</h2>
+			<div class="container-fluid cards ">
+							
+							
+				<div class="card card2">
+						
+						<img src="Assesst/images/bem.png" class="card-img" >
+						<h4 style="text-align: center; margin-top: 10px;">Event Managing Website</h4>
+						
+						
+			</div>
+			<div class="card card2 ">
+						
+						<img src="Assesst/images/cal.png" class="card-img">
+						<h4 style="text-align: center; margin-top: 10px;">Calculator</h4>
+						
+			</div>
+			<div class="card card2 " >
+						
+						<img src="Assesst/images/lan.png" class="card-img">
+						<h4 style="text-align: center; margin-top: 10px;">Landing Page</h4>
+			
+			</div>
+			</div>
+		   </div>
+		
+		</div>
+	</div>
+
+	<div class="contact row">
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-1">
+
+			<img src="Assesst/images/contact.png" class="w-100">
+
+		</div>
+		<div class="col-6 col-sm-6 col-md-6 col-lg-6  col-2">
+
+			<div class="c-form">
+
+			
+			<input placeholder="Enter Name" class="input"><br>
+			<input placeholder="Enter Email" class="input"><br>
+			<textarea placeholder="Enter Message" class=" input3"></textarea><br>
+
+			<button class="btn btn-success btn-lg btn-submit">SUBMIT</button>
+
+		</div>
+		</div>
+
+
+		
+
+		
+	</div>
+	<div class="footer container-fluid bg-white">
+		<p style="text-align: center;"> @Copyright khushigehlot</p>
+	</div>
+
+
+	
+ 
+    
+    
+        
+    
+</body>
+</html>

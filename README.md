@@ -20,9 +20,9 @@ I enjoy building projects that are both functional and visually appealing.
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Programming:** C, C++, Python, Java
-* **Tools & Technologies:** Git, GitHub, Blender (Basics)
+* React.js
+* node.js
+* CSS
 
 ---
 
